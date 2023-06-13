@@ -9,6 +9,46 @@ public class Pizza {
     private boolean extraTopping;
     private boolean paperBag;
 
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public Boolean getVeg() {
+        return isVeg;
+    }
+
+    public void setVeg(Boolean veg) {
+        isVeg = veg;
+    }
+
+    public void setBill(String bill) {
+        this.bill = bill;
+    }
+
+    public boolean isExtraCheese() {
+        return extraCheese;
+    }
+
+    public void setExtraCheese(boolean extraCheese) {
+        this.extraCheese = extraCheese;
+    }
+
+    public boolean isExtraTopping() {
+        return extraTopping;
+    }
+
+    public void setExtraTopping(boolean extraTopping) {
+        this.extraTopping = extraTopping;
+    }
+
+    public boolean isPaperBag() {
+        return paperBag;
+    }
+
+    public void setPaperBag(boolean paperBag) {
+        this.paperBag = paperBag;
+    }
+
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
         // your code goes here
@@ -23,6 +63,9 @@ public class Pizza {
         extraTopping = false;
         paperBag = false;
 
+    }
+
+    public Pizza() {
     }
 
     public int getPrice(){

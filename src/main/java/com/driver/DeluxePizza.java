@@ -9,4 +9,7 @@ public class DeluxePizza extends Pizza {
         this.addExtraToppings();
 
     }
+
+    public DeluxePizza() {
+    }
 }
