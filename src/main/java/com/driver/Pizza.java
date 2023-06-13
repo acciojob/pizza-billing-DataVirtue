@@ -79,7 +79,7 @@ public class Pizza {
 
         this.price+=80;
         bill+="\n" + "Extra Cheese Added: 80";
-//        extraCheese = true;
+        extraCheese = true;
 
     }
 
@@ -95,7 +95,7 @@ public class Pizza {
             this.price+=120;
             bill+="\n" + "Extra Toppings Added: 120";
         }
-//        extraTopping = true;
+        extraTopping = true;
     }
 
     public void addTakeaway(){
@@ -105,12 +105,12 @@ public class Pizza {
 
         this.price+=20;
         bill+="\n" + "Paperbag Added: 20";
-//        paperBag = true;
+        paperBag = true;
     }
 
     public String getBill(){
         // your code goes here
 
-        return this.bill + "\n" + "Total Price: " + this.price;
+        return this.bill + "\n" + "Total Price: " + this.price + "\n";
     }
 }
